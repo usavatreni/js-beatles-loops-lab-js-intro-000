@@ -14,11 +14,11 @@ function theBeatlesPlay(musicians, instruments) {
   }
   return resultArray
 }
-
-var exclamation = [];
-function johnLennonFacts(facts) {
-  for (var i = 0; i < facts.length; i++) {
-    exclamation.push(`${facts[i]}!!!`)
+function johnLennonFacts(array) {
+  var i = 0;
+  while (i < array.length) {
+    array[i] = array[i] + "!!!";
+    i++
   }
-  return exclamation;
+  return array;
 }
