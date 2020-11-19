@@ -6,7 +6,7 @@ var resultArray = [];
 //use for loop which iterates over the array of musicians
 //also loop throuh instruments
 //set a variable result to hold string
-//push string into the result array 
+//push string into the result array
 //then return resultArray
 function theBeatlesPlay(musicians, instruments) {
   for (var i = 0; i < musicians.length; i++) {
